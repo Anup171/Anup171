@@ -180,20 +180,7 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Anup171&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=7C3AED&text_color=c9d1d9" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Anup171&theme=radical&hide_border=true&background=0d1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="49%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anup171&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" width="49%" />
-
-</div>
-
----
-
-### 🏅 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Anup171&theme=radical&no-frame=true&no-bg=false&margin-w=8&column=7" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Anup171&theme=radical&hide_border=true&background=0d1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="60%" />
 
 </div>
 
