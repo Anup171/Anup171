@@ -60,23 +60,6 @@ My focus is architecting **multi-agent orchestration systems** — coordinating 
 
 ---
 
-### 🧠 AI / ML Expertise
-
-<div align="center">
-
-| Domain | Proficiency | Details |
-|---|:---:|---|
-| **Large Language Models (LLMs)** | ⭐⭐⭐⭐⭐ | Multi-agent orchestration, prompt design, structured output generation |
-| **Agentic AI** | ⭐⭐⭐⭐⭐ | LangGraph `StateGraph` pipelines, checkpointing, crash-recovery workflows |
-| **Natural Language Processing** | ⭐⭐⭐⭐ | Embeddings, semantic search, `SentenceTransformers` |
-| **Generative AI** | ⭐⭐⭐⭐ | Image generation pipelines, prompt-to-output MERN integrations |
-| **Prompt Engineering** | ⭐⭐⭐⭐⭐ | Role-based agent prompting, credibility-aware synthesis |
-| **Deep Learning & Classical ML** | ⭐⭐⭐⭐ | Scikit-learn pipelines, cross-validation, feature engineering |
-
-</div>
-
----
-
 ### 🚀 Featured Projects
 
 <details>
