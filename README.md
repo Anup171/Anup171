@@ -30,8 +30,6 @@
 
 ### 🪶 About Me
 
-<img align="right" width="35%" src="https://raw.githubusercontent.com/vinicius0user/vinicius0user/output/github-contribution-grid-snake-dark.svg" />
-
 I'm a **Computer Science (Data Science) undergraduate** at BMS College of Engineering, Bengaluru, engineering intelligent systems at the intersection of **agentic AI, large language models, and full-stack product development**.
 
 My focus is architecting **multi-agent orchestration systems** — coordinating LLM agents through stateful graphs to autonomously plan, retrieve, verify, and synthesize information into reliable, citation-backed outputs. Alongside this, I build **production-grade full-stack applications** with a product-engineering mindset: clean REST APIs, resilient data pipelines, and interfaces designed for real users.
