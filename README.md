@@ -8,7 +8,7 @@
 
 <br/>
 
-![CGPA](https://img.shields.io/badge/CGPA-9.3%2F10-6D28D9?style=flat-square&labelColor=1e1b2e)
+![CGPA](https://img.shields.io/badge/CGPA-9.31%2F10-6D28D9?style=flat-square&labelColor=1e1b2e)
 ![PUC](https://img.shields.io/badge/PUC-97.1%25-7C3AED?style=flat-square&labelColor=1e1b2e)
 ![Location](https://img.shields.io/badge/Location-Bengaluru%2C%20India-4C1D95?style=flat-square&labelColor=1e1b2e)
 
@@ -32,7 +32,7 @@
 
 I'm a **Computer Science (Data Science) undergraduate** at BMS College of Engineering, Bengaluru, engineering intelligent systems at the intersection of **agentic AI, large language models, and full-stack product development**.
 
-My focus is architecting **multi-agent orchestration systems** — coordinating LLM agents through stateful graphs to autonomously plan, retrieve, verify, and synthesize information into reliable, citation-backed outputs. Alongside this, I build **production-grade full-stack applications** with a product-engineering mindset: clean REST APIs, resilient data pipelines, and interfaces designed for real users.
+My focus is architecting **multi-agent orchestration systems** — coordinating LLM agents through stateful graphs to autonomously plan, retrieve, verify, and synthesize information into reliable, citation-backed outputs. Alongside this, I build **production-grade full-stack and distributed backend systems** — from generative AI platforms to real-time notification infrastructure — with a product-engineering mindset: clean REST APIs, resilient data pipelines, and interfaces designed for real users.
 
 **Currently Open To:**
 - 🚀 Software Engineering Internships (Full Stack / Backend)
@@ -51,10 +51,13 @@ My focus is architecting **multi-agent orchestration systems** — coordinating 
 <p> <img src="https://skillicons.dev/icons?i=react,html,css,tailwind" /> </p>
 
 **Backend & Databases**
-<p> <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postman" /> </p>
+<p> <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql,redis,postman" /> </p>
+
+**AI / ML**
+<p> <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" /> </p>
 
 **Cloud, DevOps & Tooling**
-<p> <img src="https://skillicons.dev/icons?i=git,github,vscode,cloudinary" /> </p>
+<p> <img src="https://skillicons.dev/icons?i=git,github,docker,aws,vscode,cloudinary" /> </p>
 
 ---
 
@@ -69,7 +72,7 @@ My focus is architecting **multi-agent orchestration systems** — coordinating 
 | **Natural Language Processing** | Embeddings, semantic search, `SentenceTransformers` |
 | **Generative AI** | Image generation pipelines, prompt-to-output MERN integrations |
 | **Prompt Engineering** | Role-based agent prompting, credibility-aware synthesis |
-| **Deep Learning & Classical ML** | Scikit-learn pipelines, cross-validation, feature engineering |
+| **Deep Learning & Classical ML** | PyTorch, TensorFlow, Scikit-learn pipelines, cross-validation, feature engineering |
 
 </div>
 
@@ -85,14 +88,33 @@ Architected an autonomous multi-agent research system using LangGraph's `StateGr
 
 | Aspect | Detail |
 |---|---|
-| **Stack** | Python, LangGraph, LangChain, Chainlit, Pydantic, httpx |
+| **Stack** | Python, Docker, LangGraph, LangChain, Chainlit, Pydantic, httpx |
 | **Scale** | 4-agent coordinated pipeline |
 | **Performance** | SQLite-based checkpointing for resumable sessions |
 | **Security** | Source credibility scoring engine (0–100 scale) |
 | **Impact** | Citation-backed reports exportable in MD / HTML / TXT |
 | **Repository** | [github.com/Anup171/Veritas-AI](https://github.com/Anup171/Veritas-AI) |
 
-Designed a **source credibility scoring engine** evaluating domain authority, HTTPS, and content signals to filter low-trust sources and resolve contradictions via a credibility hierarchy. Implemented production-reliability patterns including a **circuit breaker** for external service failures, exponential backoff retries, and crash-recoverable workflow checkpointing. Delivered a real-time Chainlit interface with configurable citation styles (APA, MLA, Chicago, IEEE).
+Designed a **source credibility scoring engine** evaluating domain authority, HTTPS, and content signals to filter low-trust sources and resolve contradictions via a credibility hierarchy. Implemented production-reliability patterns including a **circuit breaker** for external service failures, exponential backoff retries, and crash-recoverable workflow checkpointing. Containerized the Chainlit interface with Docker, enabling persistent caching, report storage, and exports in Markdown, HTML, and TXT formats.
+
+</details>
+
+<details>
+<summary><b>🔔 NotifyX — Distributed Real-Time Notification Platform</b></summary>
+<br/>
+
+Engineered a distributed real-time notification platform enabling asynchronous, idempotent, and low-latency delivery at scale, with automatic recovery from worker crashes and service restarts.
+
+| Aspect | Detail |
+|---|---|
+| **Stack** | Node.js, Express.js, BullMQ, Redis, MongoDB, Socket.io |
+| **Scale** | 10K requests/min global rate limit, 50 requests/min per user |
+| **Performance** | Sub-50ms delivery latency via Redis Pub/Sub |
+| **Security** | SHA-256 hashed, per-user scoped API key management |
+| **Impact** | Zero duplicate notifications across retries and crashes |
+| **Repository** | [github.com/Anup171/NotifyX](https://github.com/Anup171/NotifyX) |
+
+Implemented asynchronous job processing with **BullMQ** using 5-retry exponential backoff and a Dead Letter Queue for failed jobs. Designed a **two-layer idempotency mechanism** combining Redis `SETNX` locks with a MongoDB sparse unique index to prevent duplicate notifications across retries, worker crashes, and service restarts. Built offline synchronization so pending notifications are automatically delivered once a client reconnects, and enforced sliding-window rate limiting alongside a secure, scoped API key system.
 
 </details>
 
@@ -144,7 +166,7 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 |---|---|
 | 🥇 **Competitive Programming** | 250+ DSA problems solved (arrays, trees, graphs, DP); LeetCode contest rating **1450** |
 | 🔥 **Consistency Badges** | Earned 50-day and 100-day LeetCode streak badges |
-| 🎓 **Academic Excellence** | CGPA **9.3/10** at BMS College of Engineering |
+| 🎓 **Academic Excellence** | CGPA **9.31/10** at BMS College of Engineering |
 | 📘 **Pre-University Excellence** | **97.1%** in Karnataka PUC (II PUC) |
 
 </div>
@@ -214,6 +236,7 @@ Learning:
 
 Building:
   - Production-grade agentic AI research tools
+  - Distributed, real-time backend systems
   - Full stack generative AI applications
 
 Exploring:
