@@ -181,7 +181,7 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=Anup171&theme=radical&hide_border=true&background=0d1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="60%" />
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=Anup171&theme=radical&hide_border=true&background=0d1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="60%" />
 
 </div>
 
