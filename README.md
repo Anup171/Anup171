@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Anup%20Bhandarkar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20Agentic%20Systems%20Builder&descAlignY=55&descAlign=50" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+Agentic+AI+Systems;LangGraph+%7C+LangChain+%7C+LLMs;Full+Stack+MERN+Developer;250%2B+DSA+Problems+Solved" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+Agentic+AI+Systems;LangGraph+%7C+LangChain+%7C+LLMs;Full+Stack+MERN+Developer;300%2B+DSA+Problems+Solved" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -32,7 +32,7 @@
 
 I'm a **Computer Science (Data Science) undergraduate** at BMS College of Engineering, Bengaluru, engineering intelligent systems at the intersection of **agentic AI, large language models, and full-stack product development**.
 
-My focus is architecting **multi-agent orchestration systems** — coordinating LLM agents through stateful graphs to autonomously plan, retrieve, verify, and synthesize information into reliable, citation-backed outputs. Alongside this, I build **production-grade full-stack and distributed backend systems** — from generative AI platforms to real-time notification infrastructure — with a product-engineering mindset: clean REST APIs, resilient data pipelines, and interfaces designed for real users.
+My focus is architecting **multi-agent orchestration systems** — coordinating LLM agents through stateful graphs to autonomously plan, retrieve, verify, and synthesize information into reliable, citation-backed outputs. Alongside this, I build **production-grade, distributed backend systems** — from research pipelines to real-time notification infrastructure — with a product-engineering mindset: clean REST APIs, resilient data pipelines, vector search with FAISS, and interfaces designed for real users.
 
 **Currently Open To:**
 - 🚀 Software Engineering Internships (Full Stack / Backend)
@@ -57,7 +57,7 @@ My focus is architecting **multi-agent orchestration systems** — coordinating 
 <p> <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" /> </p>
 
 **Cloud, DevOps & Tooling**
-<p> <img src="https://skillicons.dev/icons?i=git,github,docker,aws,vscode,cloudinary" /> </p>
+<p> <img src="https://skillicons.dev/icons?i=git,github,docker,kubernetes,aws,githubactions,vscode" /> </p>
 
 ---
 
@@ -70,7 +70,7 @@ My focus is architecting **multi-agent orchestration systems** — coordinating 
 | **Large Language Models (LLMs)** | Multi-agent orchestration, prompt design, structured output generation |
 | **Agentic AI** | LangGraph `StateGraph` pipelines, checkpointing, crash-recovery workflows |
 | **Natural Language Processing** | Embeddings, semantic search, `SentenceTransformers` |
-| **Generative AI** | Image generation pipelines, prompt-to-output MERN integrations |
+| **Retrieval & Vector Search** | RAG pipelines, `FAISS` similarity search |
 | **Prompt Engineering** | Role-based agent prompting, credibility-aware synthesis |
 | **Deep Learning & Classical ML** | PyTorch, TensorFlow, Scikit-learn pipelines, cross-validation, feature engineering |
 
@@ -103,37 +103,18 @@ Designed a **source credibility scoring engine** evaluating domain authority, HT
 <summary><b>🔔 NotifyX — Distributed Real-Time Notification Platform</b></summary>
 <br/>
 
-Engineered a distributed real-time notification platform enabling asynchronous, idempotent, and low-latency delivery at scale, with automatic recovery from worker crashes and service restarts.
+Built a real-time notification platform on Node.js, Express.js, and Socket.io, enabling asynchronous, idempotent, and low-latency delivery at scale, with automatic recovery from worker crashes and service restarts.
 
 | Aspect | Detail |
 |---|---|
-| **Stack** | Node.js, Express.js, BullMQ, Redis, MongoDB, Socket.io |
+| **Stack** | Node.js, Express.js, Socket.io, Redis, MongoDB, JWT |
 | **Scale** | 10K requests/min global rate limit, 50 requests/min per user |
-| **Performance** | Sub-50ms delivery latency via Redis Pub/Sub |
+| **Performance** | Sub-5ms API response (non-blocking async dispatch), sub-50ms WebSocket delivery |
 | **Security** | SHA-256 hashed, per-user scoped API key management |
 | **Impact** | Zero duplicate notifications across retries and crashes |
 | **Repository** | [github.com/Anup171/NotifyX](https://github.com/Anup171/NotifyX) |
 
-Implemented asynchronous job processing with **BullMQ** using 5-retry exponential backoff and a Dead Letter Queue for failed jobs. Designed a **two-layer idempotency mechanism** combining Redis `SETNX` locks with a MongoDB sparse unique index to prevent duplicate notifications across retries, worker crashes, and service restarts. Built offline synchronization so pending notifications are automatically delivered once a client reconnects, and enforced sliding-window rate limiting alongside a secure, scoped API key system.
-
-</details>
-
-<details>
-<summary><b>🎨 Prompt2Pixel — Full Stack Generative AI Platform</b></summary>
-<br/>
-
-Designed and deployed a full-stack MERN generative AI application enabling users to generate AI images from text prompts and publish them to a shared community feed.
-
-| Aspect | Detail |
-|---|---|
-| **Stack** | React, Node.js, Express, MongoDB, Pollinations AI, Cloudinary |
-| **Scale** | 4 RESTful API endpoints, 50 curated prompt templates |
-| **Performance** | 500ms debounced search |
-| **Security** | Cloudinary-managed asset storage |
-| **Impact** | Shared community image feed with metadata & download tracking |
-| **Repository** | [github.com/Anup171/Prompt2Pixel](https://github.com/Anup171/Prompt2Pixel) |
-
-Built RESTful endpoints for prompt submission, image metadata, debounced search, and downloads, with Cloudinary integration for scalable media storage.
+Used non-blocking async dispatch (`setImmediate`) to return 202 Accepted responses in under 5ms. Designed a **two-layer idempotency mechanism** combining Redis `SETNX` (24h TTL) at the API boundary with a MongoDB sparse unique index to prevent duplicate notifications across retries, worker crashes, and service restarts. Delivered messages over a Socket.io WebSocket engine at sub-50ms latency, with offline sync for pending messages on reconnect and Redis cache-aside for user preferences. Implemented in-memory fixed-window rate limiting to remove Redis overhead on the hot path.
 
 </details>
 
@@ -164,7 +145,7 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 
 | Recognition | Details |
 |---|---|
-| 🥇 **Competitive Programming** | 250+ DSA problems solved (arrays, trees, graphs, DP); LeetCode contest rating **1450** |
+| 🥇 **Competitive Programming** | 300+ DSA problems solved (arrays, trees, graphs, DP) |
 | 🔥 **Consistency Badges** | Earned 50-day and 100-day LeetCode streak badges |
 | 🎓 **Academic Excellence** | CGPA **9.31/10** at BMS College of Engineering |
 | 📘 **Pre-University Excellence** | **97.1%** in Karnataka PUC (II PUC) |
@@ -181,7 +162,7 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 
 **HackerRank**
 
-[![HackerRank](https://img.shields.io/badge/HackerRank-SQL%20(Intermediate)-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/certificates/158f42f38081)
+[![HackerRank](https://img.shields.io/badge/HackerRank-SQL%20%28Intermediate%29-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/certificates/158f42f38081)
 
 ---
 
@@ -189,7 +170,7 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 
 <div align="center">
 
-<a href="https://leetcode.com/u/Anup_S/"><img src="https://img.shields.io/badge/LeetCode-1450%20Rating-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=1e1b2e" /></a>
+<a href="https://leetcode.com/u/Anup_S/"><img src="https://img.shields.io/badge/LeetCode-300%2B%20Problems%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=1e1b2e" /></a>
 <a href="https://www.hackerrank.com/certificates/158f42f38081"><img src="https://img.shields.io/badge/HackerRank-SQL%20Certified-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=1e1b2e" /></a>
 
 </div>
@@ -237,7 +218,6 @@ Learning:
 Building:
   - Production-grade agentic AI research tools
   - Distributed, real-time backend systems
-  - Full stack generative AI applications
 
 Exploring:
   - Retrieval-Augmented Generation (RAG) architectures
