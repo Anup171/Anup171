@@ -1,252 +1,77 @@
-<div align="center">
+# Hi, I'm Anup Bhandarkar 👋
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Anup%20Bhandarkar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20Agentic%20Systems%20Builder&descAlignY=55&descAlign=50" width="100%"/>
+**Software Engineer in the making — Backend Systems & Applied AI/ML**
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+Agentic+AI+Systems;LangGraph+%7C+LangChain+%7C+LLMs;Full+Stack+MERN+Developer;300%2B+DSA+Problems+Solved" alt="Typing SVG" />
-</a>
+I'm a CSE (Data Science) undergraduate at BMS College of Engineering, Bengaluru, building production-style backend systems and AI agent pipelines. I care about systems that stay correct under failure — idempotent APIs, crash-recoverable pipelines, and code that behaves the same way at 2am during an outage as it does in a demo.
 
-<br/>
-
-![CGPA](https://img.shields.io/badge/CGPA-9.31%2F10-6D28D9?style=flat-square&labelColor=1e1b2e)
-![PUC](https://img.shields.io/badge/PUC-97.1%25-7C3AED?style=flat-square&labelColor=1e1b2e)
-![Location](https://img.shields.io/badge/Location-Bengaluru%2C%20India-4C1D95?style=flat-square&labelColor=1e1b2e)
-
-<br/>
-
-<a href="https://www.linkedin.com/in/anup-bhandarkar/"><img src="https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:anupbhandarkar171@gmail.com"><img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://github.com/Anup171"><img src="https://img.shields.io/badge/GitHub-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
-
-<br/><br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Anup171&color=6D28D9&style=for-the-badge&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/Anup171?style=for-the-badge&color=7C3AED&labelColor=1e1b2e&label=FOLLOWERS)
-![Stars](https://img.shields.io/github/stars/Anup171?style=for-the-badge&color=4C1D95&labelColor=1e1b2e&label=STARS)
-
-</div>
+📍 Bengaluru, India · 🎓 B.E. CSE (Data Science), 2024–2028 · CGPA 9.31/10
 
 ---
 
-### 🪶 About Me
+### 🔭 Currently
 
-I'm a **Computer Science (Data Science) undergraduate** at BMS College of Engineering, Bengaluru, engineering intelligent systems at the intersection of **agentic AI, large language models, and full-stack product development**.
-
-My focus is architecting **multi-agent orchestration systems** — coordinating LLM agents through stateful graphs to autonomously plan, retrieve, verify, and synthesize information into reliable, citation-backed outputs. Alongside this, I build **production-grade, distributed backend systems** — from research pipelines to real-time notification infrastructure — with a product-engineering mindset: clean REST APIs, resilient data pipelines, vector search with FAISS, and interfaces designed for real users.
-
-**Currently Open To:**
-- 🚀 Software Engineering Internships (Full Stack / Backend)
-- 🤖 AI/ML & Agentic Systems Research Roles
-- 🌱 Open Source Collaboration in LLM tooling
-- 🧠 Applied ML & Data Science opportunities
+- Building multi-agent LLM systems with **LangGraph** and **LangChain** — orchestration, state management, and reliability patterns for autonomous agents
+- Designing real-time, fault-tolerant backend services with **Node.js**, **Redis**, and **Socket.io**
+- Sharpening data structures & algorithms — 300+ problems solved on LeetCode
+- Open to **Software Engineering / Backend / AI internships** for 2026–27
 
 ---
 
-### 🛠️ Tech Stack
+### 🧰 Core Stack
 
 **Languages**
-<p> <img src="https://skillicons.dev/icons?i=java,c,cpp,python,js,mysql" /> </p>
+`Java` `C++` `Python` `JavaScript` `SQL`
 
-**Frontend**
-<p> <img src="https://skillicons.dev/icons?i=react,html,css,tailwind" /> </p>
-
-**Backend & Databases**
-<p> <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql,redis,postman" /> </p>
+**Backend & APIs**
+`Node.js` `Express.js` `FastAPI` `REST APIs` `Socket.io (WebSockets)` `JWT` `React.js`
 
 **AI / ML**
-<p> <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" /> </p>
+`PyTorch` `TensorFlow` `LangChain` `LangGraph` `Scikit-learn` `SentenceTransformers` `RAG` `Embeddings`
 
-**Cloud, DevOps & Tooling**
-<p> <img src="https://skillicons.dev/icons?i=git,github,docker,kubernetes,aws,githubactions,vscode" /> </p>
+**Databases**
+`MySQL` `MongoDB` `Qdrant` `Redis`
 
----
-
-### 🧠 AI / ML Expertise
-
-<div align="center">
-
-| Domain | Details |
-|---|---|
-| **Large Language Models (LLMs)** | Multi-agent orchestration, prompt design, structured output generation |
-| **Agentic AI** | LangGraph `StateGraph` pipelines, checkpointing, crash-recovery workflows |
-| **Natural Language Processing** | Embeddings, semantic search, `SentenceTransformers` |
-| **Retrieval & Vector Search** | RAG pipelines, `FAISS` similarity search |
-| **Prompt Engineering** | Role-based agent prompting, credibility-aware synthesis |
-| **Deep Learning & Classical ML** | PyTorch, TensorFlow, Scikit-learn pipelines, cross-validation, feature engineering |
-
-</div>
+**Infra & Tools**
+`Docker` `Kubernetes` `AWS` `GitHub Actions` `Git` `Postman`
 
 ---
 
 ### 🚀 Featured Projects
 
-<details>
-<summary><b>🧩 Veritas AI — Autonomous Multi-Agent Research System</b></summary>
-<br/>
+**[Veritas AI](https://github.com/) — Autonomous Multi-Agent Research System**
+`Python` `LangGraph` `LangChain` `Docker` `Chainlit`
+Multi-agent pipeline (planner → searcher → synthesizer → writer) built on LangGraph's StateGraph that turns a topic into a citation-backed report. Includes a source-credibility scoring engine, circuit breaker + exponential backoff for resilience, and SQLite checkpointing for crash recovery and resumable runs. Containerized with a Dockerized Chainlit UI and export to Markdown/HTML/TXT.
 
-Architected an autonomous multi-agent research system using LangGraph's `StateGraph`, coordinating **4 specialized agents** (Planner, Searcher, Synthesizer, Writer) to autonomously plan, search, and synthesize web sources into citation-backed reports.
+**[NotifyX](https://github.com/) — Real-Time Notification Platform**
+`Node.js` `Express.js` `Socket.io` `Redis` `MongoDB` `JWT`
+Non-blocking notification service returning `202 Accepted` in under 5ms via async dispatch, with sub-50ms WebSocket delivery over Socket.io. Two-layer idempotency (Redis `SETNX` + MongoDB sparse unique index) eliminates duplicate sends across retries and crashes. Includes offline sync on reconnect, in-memory rate limiting (10K req/min global, 50 req/min per user), and SHA-256 API-key auth.
 
-| Aspect | Detail |
-|---|---|
-| **Stack** | Python, Docker, LangGraph, LangChain, Chainlit, Pydantic, httpx |
-| **Scale** | 4-agent coordinated pipeline |
-| **Performance** | SQLite-based checkpointing for resumable sessions |
-| **Security** | Source credibility scoring engine (0–100 scale) |
-| **Impact** | Citation-backed reports exportable in MD / HTML / TXT |
-| **Repository** | [github.com/Anup171/Veritas-AI](https://github.com/Anup171/Veritas-AI) |
-
-Designed a **source credibility scoring engine** evaluating domain authority, HTTPS, and content signals to filter low-trust sources and resolve contradictions via a credibility hierarchy. Implemented production-reliability patterns including a **circuit breaker** for external service failures, exponential backoff retries, and crash-recoverable workflow checkpointing. Containerized the Chainlit interface with Docker, enabling persistent caching, report storage, and exports in Markdown, HTML, and TXT formats.
-
-</details>
-
-<details>
-<summary><b>🔔 NotifyX — Distributed Real-Time Notification Platform</b></summary>
-<br/>
-
-Built a real-time notification platform on Node.js, Express.js, and Socket.io, enabling asynchronous, idempotent, and low-latency delivery at scale, with automatic recovery from worker crashes and service restarts.
-
-| Aspect | Detail |
-|---|---|
-| **Stack** | Node.js, Express.js, Socket.io, Redis, MongoDB, JWT |
-| **Scale** | 10K requests/min global rate limit, 50 requests/min per user |
-| **Performance** | Sub-5ms API response (non-blocking async dispatch), sub-50ms WebSocket delivery |
-| **Security** | SHA-256 hashed, per-user scoped API key management |
-| **Impact** | Zero duplicate notifications across retries and crashes |
-| **Repository** | [github.com/Anup171/NotifyX](https://github.com/Anup171/NotifyX) |
-
-Used non-blocking async dispatch (`setImmediate`) to return 202 Accepted responses in under 5ms. Designed a **two-layer idempotency mechanism** combining Redis `SETNX` (24h TTL) at the API boundary with a MongoDB sparse unique index to prevent duplicate notifications across retries, worker crashes, and service restarts. Delivered messages over a Socket.io WebSocket engine at sub-50ms latency, with offline sync for pending messages on reconnect and Redis cache-aside for user preferences. Implemented in-memory fixed-window rate limiting to remove Redis overhead on the hot path.
-
-</details>
-
-<details>
-<summary><b>📊 Loan Approval & Customer Risk Prediction</b></summary>
-<br/>
-
-Built an end-to-end ML classification pipeline on 4,269 loan applications with 13 features, using feature engineering, `StandardScaler`, one-hot encoding, and stratified sampling for class balance.
-
-| Aspect | Detail |
-|---|---|
-| **Stack** | Python, Scikit-learn, Pandas, Matplotlib, Seaborn |
-| **Scale** | 4,269 applications, 13 features, 5 models benchmarked |
-| **Performance** | 98.36% Accuracy, 99.77% ROC-AUC (Gradient Boosting) |
-| **Security** | N/A |
-| **Impact** | CIBIL score identified as 80.23% dominant predictor |
-| **Repository** | [github.com/Anup171/Loan-approval-prediction](https://github.com/Anup171/Loan-approval-prediction) |
-
-Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting based on top performance, with feature importance analysis surfacing CIBIL score as the dominant predictor of risk.
-
-</details>
+**[Loan Approval & Customer Risk Prediction](https://github.com/) — ML Classification Pipeline**
+`Python` `Scikit-learn` `Pandas` `Seaborn`
+End-to-end pipeline on 4,269 loan applications across 13 features. Benchmarked 5 models via 5-fold cross-validation; Gradient Boosting achieved **98.36% accuracy** and **99.77% ROC-AUC**, with feature-importance analysis identifying CIBIL score as the dominant predictor.
 
 ---
 
 ### 🏆 Achievements
 
-<div align="center">
-
-| Recognition | Details |
-|---|---|
-| 🥇 **Competitive Programming** | 300+ DSA problems solved (arrays, trees, graphs, DP) |
-| 🔥 **Consistency Badges** | Earned 50-day and 100-day LeetCode streak badges |
-| 🎓 **Academic Excellence** | CGPA **9.31/10** at BMS College of Engineering |
-| 📘 **Pre-University Excellence** | **97.1%** in Karnataka PUC (II PUC) |
-
-</div>
+- **Dell Futureminds AI Hackathon** — Shortlisted (Jul 2026)
+- **OpenAI Build Weekly** — Built an AI prototype under sprint-based time constraints (Jul 2026)
+- **IIT Madras** — Foundational Level in Programming and Data Science (Sep 2025)
+- **LeetCode** — 300+ DSA problems solved; 50-day and 100-day consistency badges
 
 ---
 
-### 📜 Certifications
+### 📊 GitHub Stats
 
-**IIT Madras**
-
-[![IIT Madras](https://img.shields.io/badge/IIT%20Madras-Foundational%20Level%20in%20Programming%20%26%20Data%20Science-6D28D9?style=flat-square&logo=googlescholar&logoColor=white)](https://drive.google.com/file/d/1MV3KronPTnfHy9_sHomTTiCRoBtcAn1T/view?pli=1)
-
-**HackerRank**
-
-[![HackerRank](https://img.shields.io/badge/HackerRank-SQL%20%28Intermediate%29-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/certificates/158f42f38081)
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=default&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true" height="165" />
+</p>
 
 ---
 
-### 💻 Coding Profiles
+### 📫 Reach Me
 
-<div align="center">
-
-<a href="https://leetcode.com/u/Anup_S/"><img src="https://img.shields.io/badge/LeetCode-300%2B%20Problems%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=1e1b2e" /></a>
-<a href="https://www.hackerrank.com/certificates/158f42f38081"><img src="https://img.shields.io/badge/HackerRank-SQL%20Certified-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=1e1b2e" /></a>
-
-</div>
-
----
-
-### 📈 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=Anup171&theme=radical&hide_border=true&background=0d1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="60%" />
-
-</div>
-
----
-
-### 📊 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anup171&theme=react-dark&hide_border=true&bg_color=0d1117&color=A78BFA&line=7C3AED&point=ffffff" width="95%" />
-
-</div>
-
----
-
-### 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Anup171/Anup171/output/github-contribution-grid-snake-dark.svg" width="95%" />
-
-</div>
-
----
-
-### 🔭 Current Focus
-
-```yaml
-Learning:
-  - Advanced multi-agent orchestration patterns
-  - Distributed systems & scalable backend architecture
-  - Deep learning model optimization
-
-Building:
-  - Production-grade agentic AI research tools
-  - Distributed, real-time backend systems
-
-Exploring:
-  - Retrieval-Augmented Generation (RAG) architectures
-  - LLM evaluation & credibility scoring frameworks
-
-Open To:
-  - Software Engineering Internships
-  - AI/ML Research Collaborations
-  - Open Source Contributions
-```
-
----
-
-### 📬 Connect With Me
-
-<div align="center">
-
-<a href="mailto:anupbhandarkar171@gmail.com"><img src="https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/anup-bhandarkar/"><img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/Anup171"><img src="https://img.shields.io/badge/GitHub-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
-
-</div>
-
----
-
-<div align="center">
-
-_"Build systems that reason, not just respond."_
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anupbhandarkar171@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
