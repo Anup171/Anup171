@@ -32,7 +32,7 @@
 
 I'm a **Computer Science (Data Science) undergraduate** at BMS College of Engineering, Bengaluru, engineering intelligent systems at the intersection of **agentic AI, large language models, and full-stack product development**.
 
-My focus is architecting **multi-agent orchestration systems** — coordinating LLM agents through stateful graphs to autonomously plan, retrieve, verify, and synthesize information into reliable, citation-backed outputs. Alongside this, I build **production-grade, distributed backend systems** — from research pipelines to real-time notification infrastructure — with a product-engineering mindset: clean REST APIs, resilient data pipelines, vector search with FAISS, and interfaces designed for real users.
+My focus is architecting **multi-agent orchestration systems** — coordinating LLM agents through stateful graphs to autonomously plan, retrieve, verify, and synthesize information into reliable, citation-backed outputs. Alongside this, I build **production-grade, distributed backend systems** — from research pipelines to real-time notification infrastructure — with a product-engineering mindset: clean REST APIs, resilient data pipelines, vector search with Qdrant, and interfaces designed for real users.
 
 **Currently Open To:**
 - 🚀 Software Engineering Internships (Full Stack / Backend)
@@ -51,7 +51,10 @@ My focus is architecting **multi-agent orchestration systems** — coordinating 
 <p> <img src="https://skillicons.dev/icons?i=react,html,css,tailwind" /> </p>
 
 **Backend & Databases**
-<p> <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql,redis,postman" /> </p>
+<p> <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql,redis,postman,pytest" /> </p>
+
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logoColor=white&labelColor=1e1b2e)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white&labelColor=1e1b2e)
 
 **AI / ML**
 <p> <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" /> </p>
@@ -70,7 +73,7 @@ My focus is architecting **multi-agent orchestration systems** — coordinating 
 | **Large Language Models (LLMs)** | Multi-agent orchestration, prompt design, structured output generation |
 | **Agentic AI** | LangGraph `StateGraph` pipelines, checkpointing, crash-recovery workflows |
 | **Natural Language Processing** | Embeddings, semantic search, `SentenceTransformers` |
-| **Retrieval & Vector Search** | RAG pipelines, `FAISS` similarity search |
+| **Retrieval & Vector Search** | RAG pipelines, `Qdrant` vector similarity search |
 | **Prompt Engineering** | Role-based agent prompting, credibility-aware synthesis |
 | **Deep Learning & Classical ML** | PyTorch, TensorFlow, Scikit-learn pipelines, cross-validation, feature engineering |
 
@@ -95,7 +98,7 @@ Architected an autonomous multi-agent research system using LangGraph's `StateGr
 | **Impact** | Citation-backed reports exportable in MD / HTML / TXT |
 | **Repository** | [github.com/Anup171/Veritas-AI](https://github.com/Anup171/Veritas-AI) |
 
-Designed a **source credibility scoring engine** evaluating domain authority, HTTPS, and content signals to filter low-trust sources and resolve contradictions via a credibility hierarchy. Implemented production-reliability patterns including a **circuit breaker** for external service failures, exponential backoff retries, and crash-recoverable workflow checkpointing. Containerized the Chainlit interface with Docker, enabling persistent caching, report storage, and exports in Markdown, HTML, and TXT formats.
+Designed a **source credibility scoring engine** evaluating domain authority, HTTPS, and content signals to filter low-trust sources and resolve contradictions via a weighted credibility hierarchy. Implemented production-reliability patterns including a **circuit breaker** for external service failures, exponential backoff retries, and crash-recoverable workflow checkpointing. Containerized the Chainlit interface with Docker, enabling persistent caching, report storage, and exports in Markdown, HTML, and TXT formats.
 
 </details>
 
@@ -129,7 +132,6 @@ Built an end-to-end ML classification pipeline on 4,269 loan applications with 1
 | **Stack** | Python, Scikit-learn, Pandas, Matplotlib, Seaborn |
 | **Scale** | 4,269 applications, 13 features, 5 models benchmarked |
 | **Performance** | 98.36% Accuracy, 99.77% ROC-AUC (Gradient Boosting) |
-| **Security** | N/A |
 | **Impact** | CIBIL score identified as 80.23% dominant predictor |
 | **Repository** | [github.com/Anup171/Loan-approval-prediction](https://github.com/Anup171/Loan-approval-prediction) |
 
@@ -139,7 +141,7 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 
 ---
 
-### 🏆 Achievements
+### 🏆 Achievements & Hackathons
 
 <div align="center">
 
@@ -147,6 +149,8 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 |---|---|
 | 🥇 **Competitive Programming** | 300+ DSA problems solved (arrays, trees, graphs, DP) |
 | 🔥 **Consistency Badges** | Earned 50-day and 100-day LeetCode streak badges |
+| 🚀 **Dell Futureminds AI Hackathon** | Shortlisted; built an AI prototype under tight, sprint-based timelines (Jul. 2026) |
+| 🤖 **OpenAI Build Weekly** | Built an AI prototype under tight, sprint-based timelines (Jul. 2026) |
 | 🎓 **Academic Excellence** | CGPA **9.31/10** at BMS College of Engineering |
 | 📘 **Pre-University Excellence** | **97.1%** in Karnataka PUC (II PUC) |
 
@@ -160,9 +164,7 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 
 [![IIT Madras](https://img.shields.io/badge/IIT%20Madras-Foundational%20Level%20in%20Programming%20%26%20Data%20Science-6D28D9?style=flat-square&logo=googlescholar&logoColor=white)](https://drive.google.com/file/d/1MV3KronPTnfHy9_sHomTTiCRoBtcAn1T/view?pli=1)
 
-**HackerRank**
-
-[![HackerRank](https://img.shields.io/badge/HackerRank-SQL%20%28Intermediate%29-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/certificates/158f42f38081)
+Completed certification covering Python, problem solving, statistics, and foundational data science concepts (Sep. 2025).
 
 ---
 
@@ -171,7 +173,6 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 <div align="center">
 
 <a href="https://leetcode.com/u/Anup_S/"><img src="https://img.shields.io/badge/LeetCode-300%2B%20Problems%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=1e1b2e" /></a>
-<a href="https://www.hackerrank.com/certificates/158f42f38081"><img src="https://img.shields.io/badge/HackerRank-SQL%20Certified-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=1e1b2e" /></a>
 
 </div>
 
@@ -182,16 +183,6 @@ Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting 
 <div align="center">
 
 <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Anup171&theme=radical&hide_border=true&background=0d1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="60%" />
-
-</div>
-
----
-
-### 📊 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anup171&theme=react-dark&hide_border=true&bg_color=0d1117&color=A78BFA&line=7C3AED&point=ffffff" width="95%" />
 
 </div>
 
