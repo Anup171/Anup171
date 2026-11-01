@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Anup%20Bhandarkar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20Agentic%20Systems%20Builder&descAlignY=55&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Anup%20Bhandarkar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CSE%20(Data%20Science)%20Undergraduate%20%7C%20Backend%20Engineering%20%7C%20Agentic%20AI&descAlignY=55&descAlign=50" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+Agentic+AI+Systems;LangGraph+%7C+LangChain+%7C+LLMs;Full+Stack+MERN+Developer;300%2B+DSA+Problems+Solved" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+Reliable+Backend+Systems;FastAPI+%7C+PostgreSQL+%7C+Node.js;LangGraph+%7C+LangChain+%7C+Agentic+AI;300%2B+DSA+Problems+Solved" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -28,54 +28,72 @@
 
 ---
 
-### 🪶 About Me
+### 👋 About Me
 
-I'm a **Computer Science (Data Science) undergraduate** at BMS College of Engineering, Bengaluru, engineering intelligent systems at the intersection of **agentic AI, large language models, and full-stack product development**.
+I'm a **Computer Science and Engineering (Data Science) undergraduate** at **BMS College of Engineering, Bengaluru**, pursuing a B.E. since September 2024. I build backend and full-stack systems alongside agentic AI applications, with a focus on reliability, clear APIs, and useful product experiences.
 
-My focus is architecting **multi-agent orchestration systems** — coordinating LLM agents through stateful graphs to autonomously plan, retrieve, verify, and synthesize information into reliable, citation-backed outputs. Alongside this, I build **production-grade, distributed backend systems** — from research pipelines to real-time notification infrastructure — with a product-engineering mindset: clean REST APIs, resilient data pipelines, vector search with Qdrant, and interfaces designed for real users.
+My projects span **multi-agent research and citation-backed synthesis**, **PostgreSQL-coordinated uptime monitoring**, and **real-time notification delivery**. I enjoy working across system design, asynchronous services, data stores, and LLM-powered workflows.
 
-**Currently Open To:**
-- 🚀 Software Engineering Internships (Full Stack / Backend)
-- 🤖 AI/ML & Agentic Systems Research Roles
-- 🌱 Open Source Collaboration in LLM tooling
-- 🧠 Applied ML & Data Science opportunities
+**Areas of Interest:**
+- Software engineering: backend and full-stack systems
+- Distributed systems, reliability, and API design
+- Agentic AI, RAG, and LLM applications
+
+---
+
+### 🎓 Education
+
+| Program | Institution | Result | Period |
+|---|---|---|---|
+| B.E. in Computer Science and Engineering (Data Science) | BMS College of Engineering, Bengaluru | CGPA: 9.31/10 | Sep. 2024 – Present |
+| Karnataka Pre-University Course (II PUC) | Deeksha CFL PU College, Bengaluru | 97.1% | Apr. 2023 – Mar. 2024 |
 
 ---
 
 ### 🛠️ Tech Stack
 
 **Languages**
-<p> <img src="https://skillicons.dev/icons?i=java,c,cpp,python,js,mysql" /> </p>
+
+<p><img src="https://skillicons.dev/icons?i=java,cpp,python,js" /></p>
+
+Java · C++ · Python · JavaScript · SQL
 
 **Frontend**
-<p> <img src="https://skillicons.dev/icons?i=react,html,css,tailwind" /> </p>
+
+<p><img src="https://skillicons.dev/icons?i=react" /></p>
 
 **Backend & Databases**
-<p> <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql,redis,postman,pytest" /> </p>
 
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logoColor=white&labelColor=1e1b2e)
+<p><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgresql,mysql,mongodb,redis,postman" /></p>
+
+![REST APIs](https://img.shields.io/badge/REST%20APIs-6D28D9?style=flat-square&labelColor=1e1b2e)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white&labelColor=1e1b2e)
+![WebSockets](https://img.shields.io/badge/WebSockets-4C1D95?style=flat-square&labelColor=1e1b2e)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square)
 
-**AI / ML**
-<p> <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" /> </p>
+**AI / LLM Systems**
+
+LangChain · LangGraph · Agentic AI · Retrieval-Augmented Generation (RAG) · Prompt Engineering · Embeddings · Vector Databases · SentenceTransformers
 
 **Cloud, DevOps & Tooling**
-<p> <img src="https://skillicons.dev/icons?i=git,github,docker,kubernetes,aws,githubactions,vscode" /> </p>
+
+<p><img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git,github" /></p>
 
 ---
 
-### 🧠 AI / ML Expertise
+### 🧠 AI & Systems Expertise
 
 <div align="center">
 
-| Domain | Details |
+| Area | Experience |
 |---|---|
-| **Large Language Models (LLMs)** | Multi-agent orchestration, prompt design, structured output generation |
-| **Agentic AI** | LangGraph `StateGraph` pipelines, checkpointing, crash-recovery workflows |
-| **Natural Language Processing** | Embeddings, semantic search, `SentenceTransformers` |
-| **Retrieval & Vector Search** | RAG pipelines, `Qdrant` vector similarity search |
-| **Prompt Engineering** | Role-based agent prompting, credibility-aware synthesis |
-| **Deep Learning & Classical ML** | PyTorch, TensorFlow, Scikit-learn pipelines, cross-validation, feature engineering |
+| **Agentic AI** | LangGraph `StateGraph` workflows coordinating specialized agents |
+| **Research & RAG** | Multi-step planning, web research, credibility scoring, citation-backed synthesis |
+| **Backend Systems** | FastAPI and Node.js services, asynchronous workers, REST APIs, WebSockets |
+| **Reliability** | PostgreSQL worker coordination, leases, circuit breakers, retries, SQLite checkpointing |
+| **Data & Caching** | PostgreSQL, MySQL, MongoDB, Redis, and TTL-based caching |
+| **LLM Applications** | OpenRouter integration, telemetry, cost tracking, and deterministic fallbacks |
 
 </div>
 
@@ -84,87 +102,78 @@ My focus is architecting **multi-agent orchestration systems** — coordinating 
 ### 🚀 Featured Projects
 
 <details>
+<summary><b>⏱️ PulseWatch — Uptime Monitoring & Incident Platform</b></summary>
+<br/>
+
+Built a full-stack uptime monitoring platform with an asynchronous probe engine, distributed scheduling, alerting, and LLM-assisted root-cause summaries.
+
+| Aspect | Detail |
+|---|---|
+| **Stack** | FastAPI, Python, PostgreSQL, Asyncio, React.js, Docker, OpenRouter |
+| **Scale** | 20 concurrent workers polling at 15-second intervals |
+| **Performance** | Sub-100ms API latency; alerts dispatched in under 500ms |
+| **Reliability** | PostgreSQL `SELECT ... FOR UPDATE SKIP LOCKED` scheduling with 30-second leases, achieving 0% duplicate checks across worker replicas |
+| **Alerting** | 3-failure threshold plus a 10-second re-check, reducing false alerts by 95% |
+| **AI** | Root-cause summaries from five-stage HTTP telemetry in under 1.5 seconds, backed by a 100% deterministic fallback |
+| **Repository** | [github.com/Anup171/PulseWatch](https://github.com/Anup171/PulseWatch) |
+
+</details>
+
+<details>
 <summary><b>🧩 Veritas AI — Autonomous Multi-Agent Research System</b></summary>
 <br/>
 
-Architected an autonomous multi-agent research system using LangGraph's `StateGraph`, coordinating **4 specialized agents** (Planner, Searcher, Synthesizer, Writer) to autonomously plan, search, and synthesize web sources into citation-backed reports.
+Architected a LangGraph research platform that coordinates four agents to plan research objectives and produce structured reports with academic citations.
 
 | Aspect | Detail |
 |---|---|
-| **Stack** | Python, Docker, LangGraph, LangChain, Chainlit, Pydantic, httpx |
-| **Scale** | 4-agent coordinated pipeline |
-| **Performance** | SQLite-based checkpointing for resumable sessions |
-| **Security** | Source credibility scoring engine (0–100 scale) |
-| **Impact** | Citation-backed reports exportable in MD / HTML / TXT |
+| **Stack** | Python, LangGraph, LangChain, Docker, Chainlit, Pydantic |
+| **Research** | Plans 3–5 objectives and generates eight-section reports with APA and IEEE citations |
+| **Credibility** | Scores sources from 0–100 across 50+ trusted domains; filters sources below 40 and prioritizes scores of 70 or higher |
+| **Resilience** | Three-state circuit breaker with a five-failure threshold and 30-second reset; SQLite checkpointing with 100% state recovery on process crashes |
+| **Efficiency** | MD5-keyed cache with a seven-day TTL; real-time token and cost telemetry |
 | **Repository** | [github.com/Anup171/Veritas-AI](https://github.com/Anup171/Veritas-AI) |
 
-Designed a **source credibility scoring engine** evaluating domain authority, HTTPS, and content signals to filter low-trust sources and resolve contradictions via a weighted credibility hierarchy. Implemented production-reliability patterns including a **circuit breaker** for external service failures, exponential backoff retries, and crash-recoverable workflow checkpointing. Containerized the Chainlit interface with Docker, enabling persistent caching, report storage, and exports in Markdown, HTML, and TXT formats.
-
 </details>
 
 <details>
-<summary><b>🔔 NotifyX — Distributed Real-Time Notification Platform</b></summary>
+<summary><b>🔔 NotifyX — Real-Time Notification Platform</b></summary>
 <br/>
 
-Built a real-time notification platform on Node.js, Express.js, and Socket.io, enabling asynchronous, idempotent, and low-latency delivery at scale, with automatic recovery from worker crashes and service restarts.
+Built a Node.js notification platform with asynchronous dispatch, idempotent delivery, WebSocket messaging, offline sync, and API-key authentication.
 
 | Aspect | Detail |
 |---|---|
-| **Stack** | Node.js, Express.js, Socket.io, Redis, MongoDB, JWT |
-| **Scale** | 10K requests/min global rate limit, 50 requests/min per user |
-| **Performance** | Sub-5ms API response (non-blocking async dispatch), sub-50ms WebSocket delivery |
-| **Security** | SHA-256 hashed, per-user scoped API key management |
-| **Impact** | Zero duplicate notifications across retries and crashes |
+| **Stack** | Node.js, Express.js, Socket.IO, Redis, MongoDB, JWT |
+| **Performance** | Returns `202 Accepted` in under 5ms; WebSocket delivery in under 50ms |
+| **Idempotency** | Redis `SETNX` with a 24-hour TTL plus a MongoDB unique index to prevent duplicate notifications across retries and restarts |
+| **Delivery** | Offline message sync on reconnect and Redis cache-aside for user preferences |
+| **Security & Limits** | SHA-256 hashed API-key authentication; fixed-window limits of 10K requests/min globally and 50 requests/min per user |
 | **Repository** | [github.com/Anup171/NotifyX](https://github.com/Anup171/NotifyX) |
-
-Used non-blocking async dispatch (`setImmediate`) to return 202 Accepted responses in under 5ms. Designed a **two-layer idempotency mechanism** combining Redis `SETNX` (24h TTL) at the API boundary with a MongoDB sparse unique index to prevent duplicate notifications across retries, worker crashes, and service restarts. Delivered messages over a Socket.io WebSocket engine at sub-50ms latency, with offline sync for pending messages on reconnect and Redis cache-aside for user preferences. Implemented in-memory fixed-window rate limiting to remove Redis overhead on the hot path.
-
-</details>
-
-<details>
-<summary><b>📊 Loan Approval & Customer Risk Prediction</b></summary>
-<br/>
-
-Built an end-to-end ML classification pipeline on 4,269 loan applications with 13 features, using feature engineering, `StandardScaler`, one-hot encoding, and stratified sampling for class balance.
-
-| Aspect | Detail |
-|---|---|
-| **Stack** | Python, Scikit-learn, Pandas, Matplotlib, Seaborn |
-| **Scale** | 4,269 applications, 13 features, 5 models benchmarked |
-| **Performance** | 98.36% Accuracy, 99.77% ROC-AUC (Gradient Boosting) |
-| **Impact** | CIBIL score identified as 80.23% dominant predictor |
-| **Repository** | [github.com/Anup171/Loan-approval-prediction](https://github.com/Anup171/Loan-approval-prediction) |
-
-Benchmarked 5 models via 5-fold cross-validation and selected Gradient Boosting based on top performance, with feature importance analysis surfacing CIBIL score as the dominant predictor of risk.
 
 </details>
 
 ---
 
-### 🏆 Achievements & Hackathons
+### 🏆 Achievements & Certifications
 
 <div align="center">
 
 | Recognition | Details |
 |---|---|
-| 🥇 **Competitive Programming** | 300+ DSA problems solved (arrays, trees, graphs, DP) |
-| 🔥 **Consistency Badges** | Earned 50-day and 100-day LeetCode streak badges |
-| 🚀 **Dell Futureminds AI Hackathon** | Shortlisted; built an AI prototype under tight, sprint-based timelines (Jul. 2026) |
-| 🤖 **OpenAI Build Weekly** | Built an AI prototype under tight, sprint-based timelines (Jul. 2026) |
+| 🧩 **Competitive Programming** | Solved 300+ DSA problems across arrays, trees, graphs, and dynamic programming; earned 50-day and 100-day LeetCode streak badges |
+| 🚀 **Dell Futureminds AI Hackathon** | Shortlisted |
+| 🇮🇳 **Smart India Hackathon (SIH)** | Selected to represent BMSCE after clearing college-level qualifiers |
 | 🎓 **Academic Excellence** | CGPA **9.31/10** at BMS College of Engineering |
 | 📘 **Pre-University Excellence** | **97.1%** in Karnataka PUC (II PUC) |
 
 </div>
 
----
-
-### 📜 Certifications
-
 **IIT Madras**
 
 [![IIT Madras](https://img.shields.io/badge/IIT%20Madras-Foundational%20Level%20in%20Programming%20%26%20Data%20Science-6D28D9?style=flat-square&logo=googlescholar&logoColor=white)](https://drive.google.com/file/d/1MV3KronPTnfHy9_sHomTTiCRoBtcAn1T/view?pli=1)
 
-Completed certification covering Python, problem solving, statistics, and foundational data science concepts (Sep. 2025).
+Completed the Foundational Level certification in Programming and Data Science, covering Python, statistics, and core CS concepts.
 
 ---
 
@@ -198,27 +207,12 @@ Completed certification covering Python, problem solving, statistics, and founda
 
 ---
 
-### 🔭 Current Focus
+### 🔭 Engineering Focus
 
-```yaml
-Learning:
-  - Advanced multi-agent orchestration patterns
-  - Distributed systems & scalable backend architecture
-  - Deep learning model optimization
-
-Building:
-  - Production-grade agentic AI research tools
-  - Distributed, real-time backend systems
-
-Exploring:
-  - Retrieval-Augmented Generation (RAG) architectures
-  - LLM evaluation & credibility scoring frameworks
-
-Open To:
-  - Software Engineering Internships
-  - AI/ML Research Collaborations
-  - Open Source Contributions
-```
+- Reliable asynchronous backend services and API design
+- PostgreSQL-backed worker coordination and monitoring workflows
+- Multi-agent research, RAG, and citation-backed synthesis
+- Real-time notification delivery and system resilience
 
 ---
 
@@ -236,7 +230,7 @@ Open To:
 
 <div align="center">
 
-_"Build systems that reason, not just respond."_
+_"Build reliable systems that reason and respond."_
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
 
