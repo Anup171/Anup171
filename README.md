@@ -62,23 +62,27 @@ Java · C++ · Python · JavaScript · SQL
 
 <p><img src="https://skillicons.dev/icons?i=react" /></p>
 
-**Backend & Databases**
+React.js
 
-<p><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgresql,mysql,mongodb,redis,postman" /></p>
+**Backend & APIs**
 
-![REST APIs](https://img.shields.io/badge/REST%20APIs-6D28D9?style=flat-square&labelColor=1e1b2e)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white&labelColor=1e1b2e)
-![WebSockets](https://img.shields.io/badge/WebSockets-4C1D95?style=flat-square&labelColor=1e1b2e)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square)
+Node.js · Express.js · FastAPI · REST APIs · JWT · WebSockets · Socket.IO · Pydantic
 
-**AI / LLM Systems**
+**Databases & Caching**
 
-LangChain · LangGraph · Agentic AI · Retrieval-Augmented Generation (RAG) · Prompt Engineering · Embeddings · Vector Databases · SentenceTransformers
+PostgreSQL · MySQL · MongoDB · Redis
+
+**AI / ML & LLM Systems**
+
+LangChain · LangGraph · Agentic AI (Multi-Agent Systems) · Retrieval-Augmented Generation (RAG) · Prompt Engineering · Embeddings · Vector Databases · SentenceTransformers
 
 **Cloud, DevOps & Tooling**
 
-<p><img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git,github" /></p>
+Docker · AWS · GitHub Actions (CI/CD) · Git · GitHub · Postman
+
+**Core CS**
+
+Data Structures & Algorithms · Object-Oriented Programming · System Design · Operating Systems · DBMS · Computer Networks · Computer Organization and Architecture
 
 ---
 
@@ -88,12 +92,12 @@ LangChain · LangGraph · Agentic AI · Retrieval-Augmented Generation (RAG) · 
 
 | Area | Experience |
 |---|---|
-| **Agentic AI** | LangGraph `StateGraph` workflows coordinating specialized agents |
-| **Research & RAG** | Multi-step planning, web research, credibility scoring, citation-backed synthesis |
-| **Backend Systems** | FastAPI and Node.js services, asynchronous workers, REST APIs, WebSockets |
-| **Reliability** | PostgreSQL worker coordination, leases, circuit breakers, retries, SQLite checkpointing |
+| **Agentic AI** | LangGraph workflows coordinating four autonomous research agents |
+| **Research & RAG** | Research planning, source credibility scoring, and citation-backed reports |
+| **Backend Systems** | FastAPI and Node.js services, asynchronous workers, REST APIs, and WebSockets |
+| **Reliability** | PostgreSQL job scheduling and leases, circuit breakers, and SQLite checkpointing |
 | **Data & Caching** | PostgreSQL, MySQL, MongoDB, Redis, and TTL-based caching |
-| **LLM Applications** | OpenRouter integration, telemetry, cost tracking, and deterministic fallbacks |
+| **LLM Applications** | OpenRouter integration, token and cost monitoring, and deterministic fallbacks |
 
 </div>
 
@@ -105,16 +109,16 @@ LangChain · LangGraph · Agentic AI · Retrieval-Augmented Generation (RAG) · 
 <summary><b>⏱️ PulseWatch — Uptime Monitoring & Incident Platform</b></summary>
 <br/>
 
-Built a full-stack uptime monitoring platform with an asynchronous probe engine, distributed scheduling, alerting, and LLM-assisted root-cause summaries.
+Built a fault-tolerant uptime monitoring system with concurrent HTTP/TCP probes, distributed scheduling, incident detection, webhook notifications, and LLM-assisted root-cause summaries.
 
 | Aspect | Detail |
 |---|---|
-| **Stack** | FastAPI, Python, PostgreSQL, Asyncio, React.js, Docker, OpenRouter |
-| **Scale** | 20 concurrent workers polling at 15-second intervals |
-| **Performance** | Sub-100ms API latency; alerts dispatched in under 500ms |
-| **Reliability** | PostgreSQL `SELECT ... FOR UPDATE SKIP LOCKED` scheduling with 30-second leases, achieving 0% duplicate checks across worker replicas |
-| **Alerting** | 3-failure threshold plus a 10-second re-check, reducing false alerts by 95% |
-| **AI** | Root-cause summaries from five-stage HTTP telemetry in under 1.5 seconds, backed by a 100% deterministic fallback |
+| **Stack** | FastAPI, Python, PostgreSQL, Asyncio, React.js, OpenRouter |
+| **Monitoring** | 20 concurrent async probes over HTTP/TCP at 15-second intervals, with SSRF protection and SSL certificate monitoring |
+| **Scheduling** | PostgreSQL row-level locking with `SELECT ... FOR UPDATE SKIP LOCKED` and 30-second leases; 0% duplicate checks across horizontally scaled replicas |
+| **Incident detection** | Three consecutive failures followed by a 10-second re-probe, reducing false-positive alerts by 95% |
+| **AI** | Root-cause summaries from five-stage HTTP telemetry in under 1.5 seconds, with a 100% deterministic fallback |
+| **Notifications** | REST webhooks to multiple channels |
 | **Repository** | [github.com/Anup171/PulseWatch](https://github.com/Anup171/PulseWatch) |
 
 </details>
@@ -123,15 +127,15 @@ Built a full-stack uptime monitoring platform with an asynchronous probe engine,
 <summary><b>🧩 Veritas AI — Autonomous Multi-Agent Research System</b></summary>
 <br/>
 
-Architected a LangGraph research platform that coordinates four agents to plan research objectives and produce structured reports with academic citations.
+Built a LangGraph and LangChain research platform that coordinates four agents to plan research objectives and produce structured reports with academic citations.
 
 | Aspect | Detail |
 |---|---|
 | **Stack** | Python, LangGraph, LangChain, Docker, Chainlit, Pydantic |
 | **Research** | Plans 3–5 objectives and generates eight-section reports with APA and IEEE citations |
 | **Credibility** | Scores sources from 0–100 across 50+ trusted domains; filters sources below 40 and prioritizes scores of 70 or higher |
-| **Resilience** | Three-state circuit breaker with a five-failure threshold and 30-second reset; SQLite checkpointing with 100% state recovery on process crashes |
-| **Efficiency** | MD5-keyed cache with a seven-day TTL; real-time token and cost telemetry |
+| **Resilience** | Three-state circuit breaker with a five-failure threshold and 30-second reset; SQLite checkpointing with 100% state recovery after process crashes |
+| **Efficiency** | MD5-keyed cache with a seven-day TTL; real-time token and cost monitoring |
 | **Repository** | [github.com/Anup171/Veritas-AI](https://github.com/Anup171/Veritas-AI) |
 
 </details>
@@ -140,15 +144,15 @@ Architected a LangGraph research platform that coordinates four agents to plan r
 <summary><b>🔔 NotifyX — Real-Time Notification Platform</b></summary>
 <br/>
 
-Built a Node.js notification platform with asynchronous dispatch, idempotent delivery, WebSocket messaging, offline sync, and API-key authentication.
+Built an event-driven, asynchronous notification service with idempotent delivery, WebSocket messaging, offline queue reconciliation, and API-key authentication.
 
 | Aspect | Detail |
 |---|---|
 | **Stack** | Node.js, Express.js, Socket.IO, Redis, MongoDB, JWT |
-| **Performance** | Returns `202 Accepted` in under 5ms; WebSocket delivery in under 50ms |
-| **Idempotency** | Redis `SETNX` with a 24-hour TTL plus a MongoDB unique index to prevent duplicate notifications across retries and restarts |
-| **Delivery** | Offline message sync on reconnect and Redis cache-aside for user preferences |
-| **Security & Limits** | SHA-256 hashed API-key authentication; fixed-window limits of 10K requests/min globally and 50 requests/min per user |
+| **Ingestion** | Uses `setImmediate` to decouple ingestion and return `202 Accepted` in under 5ms |
+| **Idempotency** | Redis `SETNX` with a 24-hour TTL plus a MongoDB unique index to prevent duplicate deliveries across network retries |
+| **Delivery** | In-app WebSocket messages in under 50ms, offline queue reconciliation, and Redis cache-aside for unread counts |
+| **Security & Limits** | Multi-tenant REST API with SHA-256 hashed API keys, rate limits of 10K requests/min globally and 50 requests/min per user, plus quiet-hour scheduling |
 | **Repository** | [github.com/Anup171/NotifyX](https://github.com/Anup171/NotifyX) |
 
 </details>
@@ -192,16 +196,6 @@ Completed the Foundational Level certification in Programming and Data Science, 
 <div align="center">
 
 <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Anup171&theme=radical&hide_border=true&background=0d1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="60%" />
-
-</div>
-
----
-
-### 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Anup171/Anup171/output/github-contribution-grid-snake-dark.svg" width="95%" />
 
 </div>
 
