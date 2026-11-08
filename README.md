@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Anup%20Bhandarkar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CSE%20(Data%20Science)%20Undergraduate%20%7C%20Backend%20Engineering%20%7C%20Agentic%20AI&descAlignY=55&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Anup%20Bhandarkar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CSE%20(Data%20Science)%20Undergraduate%20%7C%20Backend%20Engineering%20%7C%20Agentic%20AI&descAlignY=55&descAlign=50" width="100%" alt="Anup Bhandarkar banner"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+Reliable+Backend+Systems;FastAPI+%7C+PostgreSQL+%7C+Node.js;LangGraph+%7C+LangChain+%7C+Agentic+AI;300%2B+DSA+Problems+Solved" alt="Typing SVG" />
@@ -14,9 +14,9 @@
 
 <br/>
 
-<a href="https://www.linkedin.com/in/anup-bhandarkar/"><img src="https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:anupbhandarkar171@gmail.com"><img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://github.com/Anup171"><img src="https://img.shields.io/badge/GitHub-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/anup-bhandarkar/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" /></a>&nbsp;&nbsp;
+<a href="mailto:anupbhandarkar171@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email" /></a>&nbsp;&nbsp;
+<a href="https://github.com/Anup171"><img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub" /></a>
 
 <br/><br/>
 
@@ -32,7 +32,7 @@
 
 I'm a **Computer Science and Engineering (Data Science) undergraduate** at **BMS College of Engineering, Bengaluru**, pursuing a B.E. since September 2024. I build backend and full-stack systems alongside agentic AI applications, with a focus on reliability, clear APIs, and useful product experiences.
 
-My projects span **multi-agent research and citation-backed synthesis**, **PostgreSQL-coordinated uptime monitoring**, and **real-time notification delivery**. I enjoy working across system design, asynchronous services, data stores, and LLM-powered workflows.
+My projects span **fault-tolerant uptime monitoring**, **multi-agent research with citation-backed synthesis**, and **real-time notification delivery**. I enjoy working across system design, asynchronous services, data stores, and LLM-powered workflows.
 
 **Areas of Interest:**
 - Software engineering: backend and full-stack systems
@@ -54,31 +54,31 @@ My projects span **multi-agent research and citation-backed synthesis**, **Postg
 
 **Languages**
 
-<p><img src="https://skillicons.dev/icons?i=java,cpp,python,js" /></p>
+<p><img src="https://skillicons.dev/icons?i=java,cpp,py,js" alt="Java, C++, Python, JavaScript" /></p>
 
 Java · C++ · Python · JavaScript · SQL
 
-**Frontend**
-
-<p><img src="https://skillicons.dev/icons?i=react" /></p>
-
-React.js
-
 **Backend & APIs**
 
-Node.js · Express.js · FastAPI · REST APIs · JWT · WebSockets · Socket.IO · Pydantic
+<p><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postman" alt="Node.js, Express, FastAPI, Postman" /></p>
+
+REST APIs · JWT · WebSockets · Socket.IO · Pydantic
 
 **Databases & Caching**
 
-PostgreSQL · MySQL · MongoDB · Redis
+<p><img src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,redis" alt="PostgreSQL, MySQL, MongoDB, Redis" /></p>
 
-**AI / ML & LLM Systems**
+**Frontend**
 
-LangChain · LangGraph · Agentic AI (Multi-Agent Systems) · Retrieval-Augmented Generation (RAG) · Prompt Engineering · Embeddings · Vector Databases · SentenceTransformers
+<p><img src="https://skillicons.dev/icons?i=react" alt="React" /></p>
 
 **Cloud, DevOps & Tooling**
 
-Docker · AWS · GitHub Actions (CI/CD) · Git · GitHub · Postman
+<p><img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git,github" alt="Docker, AWS, GitHub Actions, Git, GitHub" /></p>
+
+**AI / LLM Systems**
+
+LangChain · LangGraph · Agentic AI (Multi-Agent Systems) · Retrieval-Augmented Generation (RAG) · Prompt Engineering · Embeddings · Vector Databases · SentenceTransformers
 
 **Core CS**
 
@@ -92,12 +92,12 @@ Data Structures & Algorithms · Object-Oriented Programming · System Design · 
 
 | Area | Experience |
 |---|---|
-| **Agentic AI** | LangGraph workflows coordinating four autonomous research agents |
-| **Research & RAG** | Research planning, source credibility scoring, and citation-backed reports |
-| **Backend Systems** | FastAPI and Node.js services, asynchronous workers, REST APIs, and WebSockets |
-| **Reliability** | PostgreSQL job scheduling and leases, circuit breakers, and SQLite checkpointing |
-| **Data & Caching** | PostgreSQL, MySQL, MongoDB, Redis, and TTL-based caching |
-| **LLM Applications** | OpenRouter integration, token and cost monitoring, and deterministic fallbacks |
+| **Agentic AI** | LangGraph workflows coordinating four specialized agents |
+| **Research & RAG** | Multi-step planning, source credibility scoring, citation-backed synthesis (APA, IEEE) |
+| **Backend Systems** | FastAPI and Node.js services, asynchronous workers, REST APIs, WebSockets |
+| **Reliability** | PostgreSQL row-level locking and leases, circuit breakers, retries, SQLite checkpointing |
+| **Data & Caching** | PostgreSQL, MySQL, MongoDB, Redis, idempotent deduplication, TTL-based caching |
+| **LLM Applications** | OpenRouter integration, token and cost telemetry, deterministic fallbacks |
 
 </div>
 
@@ -105,55 +105,54 @@ Data Structures & Algorithms · Object-Oriented Programming · System Design · 
 
 ### 🚀 Featured Projects
 
-<details>
+<details open>
 <summary><b>⏱️ PulseWatch — Uptime Monitoring & Incident Platform</b></summary>
 <br/>
 
-Built a fault-tolerant uptime monitoring system with concurrent HTTP/TCP probes, distributed scheduling, incident detection, webhook notifications, and LLM-assisted root-cause summaries.
+Built a scalable, fault-tolerant uptime monitoring system with an asynchronous probe engine, a distributed job scheduler, incident detection, and LLM-assisted root-cause summaries.
 
 | Aspect | Detail |
 |---|---|
 | **Stack** | FastAPI, Python, PostgreSQL, Asyncio, React.js, OpenRouter |
-| **Monitoring** | 20 concurrent async probes over HTTP/TCP at 15-second intervals, with SSRF protection and SSL certificate monitoring |
-| **Scheduling** | PostgreSQL row-level locking with `SELECT ... FOR UPDATE SKIP LOCKED` and 30-second leases; 0% duplicate checks across horizontally scaled replicas |
-| **Incident detection** | Three consecutive failures followed by a 10-second re-probe, reducing false-positive alerts by 95% |
-| **AI** | Root-cause summaries from five-stage HTTP telemetry in under 1.5 seconds, with a 100% deterministic fallback |
-| **Notifications** | REST webhooks to multiple channels |
-| **Repository** | [github.com/Anup171/PulseWatch](https://github.com/Anup171/PulseWatch) |
+| **Probing** | 20 concurrent async probes over HTTP/TCP at 15-second intervals, with SSRF protection and SSL certificate monitoring |
+| **Scheduling** | PostgreSQL `SELECT ... FOR UPDATE SKIP LOCKED` with 30-second leases, achieving 0% duplicate checks across horizontally scaled replicas |
+| **Incident Detection** | State machine (3 consecutive failures, 10-second re-probe) that cut 95% of false-positive alerts; notifications via REST webhooks to multiple channels |
+| **AI** | Root-cause summaries from 5-stage HTTP telemetry in under 1.5 seconds, backed by a 100% deterministic fallback |
+| **Links** | [Live Demo](https://pulse-watch-xi.vercel.app) · [Repository](https://github.com/Anup171/PulseWatch) |
 
 </details>
 
-<details>
+<details open>
 <summary><b>🧩 Veritas AI — Autonomous Multi-Agent Research System</b></summary>
 <br/>
 
-Built a LangGraph and LangChain research platform that coordinates four agents to plan research objectives and produce structured reports with academic citations.
+Built a multi-agent research platform with LangGraph and LangChain that orchestrates four autonomous agents to plan research objectives and produce structured, cited reports.
 
 | Aspect | Detail |
 |---|---|
 | **Stack** | Python, LangGraph, LangChain, Docker, Chainlit, Pydantic |
-| **Research** | Plans 3–5 objectives and generates eight-section reports with APA and IEEE citations |
-| **Credibility** | Scores sources from 0–100 across 50+ trusted domains; filters sources below 40 and prioritizes scores of 70 or higher |
-| **Resilience** | Three-state circuit breaker with a five-failure threshold and 30-second reset; SQLite checkpointing with 100% state recovery after process crashes |
-| **Efficiency** | MD5-keyed cache with a seven-day TTL; real-time token and cost monitoring |
-| **Repository** | [github.com/Anup171/Veritas-AI](https://github.com/Anup171/Veritas-AI) |
+| **Research** | Plans 3–5 objectives and generates 8-section reports with APA and IEEE citations |
+| **Credibility** | 0–100 source scoring across 50+ trusted domains; filters sources below 40 and prioritizes high-authority data (70+) for conflict resolution |
+| **Resilience** | 3-state circuit breaker (5-failure threshold, 30-second reset) and SQLite checkpointing, enabling 100% state recovery after process crashes |
+| **Efficiency** | MD5-keyed caching layer (7-day TTL) to cut redundant LLM calls; real-time token and cost monitoring; containerized with Docker |
+| **Links** | [Live Demo](https://veritas-ai-xkah.onrender.com) · [Repository](https://github.com/Anup171/Veritas-AI) |
 
 </details>
 
-<details>
+<details open>
 <summary><b>🔔 NotifyX — Real-Time Notification Platform</b></summary>
 <br/>
 
-Built an event-driven, asynchronous notification service with idempotent delivery, WebSocket messaging, offline queue reconciliation, and API-key authentication.
+Built an event-driven, asynchronous notification service in Node.js and Express.js with idempotent delivery, WebSocket messaging, offline sync, and multi-tenant API-key authentication.
 
 | Aspect | Detail |
 |---|---|
 | **Stack** | Node.js, Express.js, Socket.IO, Redis, MongoDB, JWT |
 | **Ingestion** | Uses `setImmediate` to decouple ingestion and return `202 Accepted` in under 5ms |
-| **Idempotency** | Redis `SETNX` with a 24-hour TTL plus a MongoDB unique index to prevent duplicate deliveries across network retries |
-| **Delivery** | In-app WebSocket messages in under 50ms, offline queue reconciliation, and Redis cache-aside for unread counts |
-| **Security & Limits** | Multi-tenant REST API with SHA-256 hashed API keys, rate limits of 10K requests/min globally and 50 requests/min per user, plus quiet-hour scheduling |
-| **Repository** | [github.com/Anup171/NotifyX](https://github.com/Anup171/NotifyX) |
+| **Idempotency** | Two-tier deduplication with Redis `SETNX` (24-hour TTL) and a MongoDB unique index, preventing duplicate deliveries across network retries |
+| **Delivery** | Real-time in-app messages over Socket.IO WebSockets at sub-50ms latency, with offline queue reconciliation and Redis cache-aside for unread counts |
+| **Security & Limits** | SHA-256 hashed API keys on a multi-tenant REST API; rate limiting at 10K requests/min globally and 50 requests/min per user, plus quiet-hour scheduling |
+| **Links** | [Live Demo](https://notify-x-ten.vercel.app) · [Repository](https://github.com/Anup171/NotifyX) |
 
 </details>
 
@@ -165,17 +164,17 @@ Built an event-driven, asynchronous notification service with idempotent deliver
 
 | Recognition | Details |
 |---|---|
-| 🧩 **Competitive Programming** | Solved 300+ DSA problems across arrays, trees, graphs, and dynamic programming; earned 50-day and 100-day LeetCode streak badges |
+| 🧩 **Competitive Programming** | Solved 300+ DSA problems across arrays, trees, graphs, and DP; earned 50-day and 100-day LeetCode consistency badges |
 | 🚀 **Dell Futureminds AI Hackathon** | Shortlisted |
 | 🇮🇳 **Smart India Hackathon (SIH)** | Selected to represent BMSCE after clearing college-level qualifiers |
 | 🎓 **Academic Excellence** | CGPA **9.31/10** at BMS College of Engineering |
-| 📘 **Pre-University Excellence** | **97.1%** in Karnataka PUC (II PUC) |
+| 📘 **Pre-University Excellence** | **97.1%** in Karnataka II PUC |
 
 </div>
 
 **IIT Madras**
 
-[![IIT Madras](https://img.shields.io/badge/IIT%20Madras-Foundational%20Level%20in%20Programming%20%26%20Data%20Science-6D28D9?style=flat-square&logo=googlescholar&logoColor=white)](https://drive.google.com/file/d/1MV3KronPTnfHy9_sHomTTiCRoBtcAn1T/view?pli=1)
+[![IIT Madras](https://img.shields.io/badge/IIT%20Madras-Foundational%20Level%20in%20Programming%20%26%20Data%20Science-6D28D9?style=flat-square)](https://drive.google.com/file/d/1MV3KronPTnfHy9_sHomTTiCRoBtcAn1T/view?pli=1)
 
 Completed the Foundational Level certification in Programming and Data Science, covering Python, statistics, and core CS concepts.
 
@@ -185,7 +184,7 @@ Completed the Foundational Level certification in Programming and Data Science, 
 
 <div align="center">
 
-<a href="https://leetcode.com/u/Anup_S/"><img src="https://img.shields.io/badge/LeetCode-300%2B%20Problems%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=1e1b2e" /></a>
+<a href="https://leetcode.com/u/Anup_S/"><img src="https://img.shields.io/badge/LeetCode-300%2B%20Problems%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=1e1b2e" alt="LeetCode" /></a>
 
 </div>
 
@@ -195,7 +194,7 @@ Completed the Foundational Level certification in Programming and Data Science, 
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=Anup171&theme=radical&hide_border=true&background=0d1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="60%" />
+<img src="https://streak-stats.demolab.com/?user=Anup171&theme=radical&hide_border=true&background=0d1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="60%" alt="GitHub streak stats" />
 
 </div>
 
@@ -214,9 +213,9 @@ Completed the Foundational Level certification in Programming and Data Science, 
 
 <div align="center">
 
-<a href="mailto:anupbhandarkar171@gmail.com"><img src="https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/anup-bhandarkar/"><img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/Anup171"><img src="https://img.shields.io/badge/GitHub-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="mailto:anupbhandarkar171@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email" /></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/anup-bhandarkar/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" /></a>&nbsp;&nbsp;
+<a href="https://github.com/Anup171"><img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub" /></a>
 
 </div>
 
@@ -226,6 +225,6 @@ Completed the Foundational Level certification in Programming and Data Science, 
 
 _"Build reliable systems that reason and respond."_
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>
