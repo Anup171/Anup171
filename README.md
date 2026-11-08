@@ -3,22 +3,16 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Anup%20Bhandarkar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CSE%20(Data%20Science)%20Undergraduate%20%7C%20Backend%20Engineering%20%7C%20Agentic%20AI&descAlignY=55&descAlign=50" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+Reliable+Backend+Systems;FastAPI+%7C+PostgreSQL+%7C+Node.js;LangGraph+%7C+LangChain+%7C+Agentic+AI;300%2B+DSA+Problems+Solved" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&height=30&lines=Building+Reliable+Backend+Systems;FastAPI+%7C+PostgreSQL+%7C+Node.js;LangGraph+%7C+LangChain+%7C+Agentic+AI;300%2B+DSA+Problems+Solved" alt="Typing SVG" />
 </a>
-
-<br/>
 
 ![CGPA](https://img.shields.io/badge/CGPA-9.31%2F10-6D28D9?style=flat-square&labelColor=1e1b2e)
 ![PUC](https://img.shields.io/badge/PUC-97.1%25-7C3AED?style=flat-square&labelColor=1e1b2e)
 ![Location](https://img.shields.io/badge/Location-Bengaluru%2C%20India-4C1D95?style=flat-square&labelColor=1e1b2e)
 
-<br/>
-
 <a href="https://www.linkedin.com/in/anup-bhandarkar/"><img src="https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:anupbhandarkar171@gmail.com"><img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://github.com/Anup171"><img src="https://img.shields.io/badge/GitHub-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
-
-<br/><br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Anup171&color=6D28D9&style=for-the-badge&label=PROFILE+VIEWS)
 ![Followers](https://img.shields.io/github/followers/Anup171?style=for-the-badge&color=7C3AED&labelColor=1e1b2e&label=FOLLOWERS)
